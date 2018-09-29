@@ -30,15 +30,16 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.txtAddress = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnScan = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnScan = new System.Windows.Forms.Button();
             this.btnGo = new System.Windows.Forms.Button();
+            this.btnDownload = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -70,17 +71,6 @@
             this.tabPage1.Text = "Browser";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.flowLayoutPanel1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1289, 486);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Scan Results (Thumbnails)";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // webBrowser1
             // 
             this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -90,40 +80,20 @@
             this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.Size = new System.Drawing.Size(1283, 480);
             this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("https://www.google.com", System.UriKind.Absolute);
+            this.webBrowser1.Url = new System.Uri("https://www.google.com/imghp?hl=en&tab=wi", System.UriKind.Absolute);
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
-            // txtAddress
+            // tabPage2
             // 
-            this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtAddress.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(93, 18);
-            this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(618, 26);
-            this.txtAddress.TabIndex = 1;
-            this.txtAddress.TextChanged += new System.EventHandler(this.txtAddress_TextChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 18);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Address:";
-            // 
-            // btnScan
-            // 
-            this.btnScan.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnScan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnScan.Location = new System.Drawing.Point(69, 61);
-            this.btnScan.Name = "btnScan";
-            this.btnScan.Size = new System.Drawing.Size(104, 51);
-            this.btnScan.TabIndex = 3;
-            this.btnScan.Text = "Scan for Images";
-            this.btnScan.UseVisualStyleBackColor = false;
-            this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
+            this.tabPage2.Controls.Add(this.btnDownload);
+            this.tabPage2.Controls.Add(this.flowLayoutPanel1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1289, 486);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Scan Results (Thumbnails)";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel1
             // 
@@ -151,6 +121,38 @@
             this.listBox1.Size = new System.Drawing.Size(906, 436);
             this.listBox1.TabIndex = 0;
             // 
+            // txtAddress
+            // 
+            this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAddress.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.Location = new System.Drawing.Point(93, 18);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(618, 26);
+            this.txtAddress.TabIndex = 1;
+            
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(71, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Address:";
+            // 
+            // btnScan
+            // 
+            this.btnScan.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnScan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnScan.Location = new System.Drawing.Point(69, 61);
+            this.btnScan.Name = "btnScan";
+            this.btnScan.Size = new System.Drawing.Size(104, 51);
+            this.btnScan.TabIndex = 3;
+            this.btnScan.Text = "Scan for Images";
+            this.btnScan.UseVisualStyleBackColor = false;
+            this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
+            // 
             // btnGo
             // 
             this.btnGo.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -162,6 +164,18 @@
             this.btnGo.Text = "GO";
             this.btnGo.UseVisualStyleBackColor = false;
             this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
+            // 
+            // btnDownload
+            // 
+            this.btnDownload.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnDownload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDownload.Location = new System.Drawing.Point(15, 15);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(184, 33);
+            this.btnDownload.TabIndex = 4;
+            this.btnDownload.Text = "Download Selected Images";
+            this.btnDownload.UseVisualStyleBackColor = false;
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
             // Form1
             // 
@@ -201,6 +215,7 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnGo;
+        private System.Windows.Forms.Button btnDownload;
     }
 }
 

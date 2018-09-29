@@ -12,3 +12,17 @@ c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin
 c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.pdb
 c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.xml
 c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csproj.CopyComplete
+E:\github\webImageScraper\Windows Image Scraper\bin\Debug\Windows Image Scraper.exe.config
+E:\github\webImageScraper\Windows Image Scraper\bin\Debug\Windows Image Scraper.exe
+E:\github\webImageScraper\Windows Image Scraper\bin\Debug\Windows Image Scraper.pdb
+E:\github\webImageScraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.dll
+E:\github\webImageScraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.pdb
+E:\github\webImageScraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.xml
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csprojAssemblyReference.cache
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows_Image_Scraper.Form1.resources
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows_Image_Scraper.Properties.Resources.resources
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csproj.GenerateResource.cache
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csproj.CoreCompileInputs.cache
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csproj.CopyComplete
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.exe
+E:\github\webImageScraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.pdb
