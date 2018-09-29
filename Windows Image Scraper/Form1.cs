@@ -130,19 +130,22 @@ namespace Windows_Image_Scraper
             Panel mypanel = new Panel();
             System.Net.WebRequest request = System.Net.WebRequest.Create(url);
 
-            System.Net.WebResponse response = request.GetResponse();
-            System.IO.Stream responseStream = response.GetResponseStream();
+           // System.Net.WebResponse response = request.GetResponse();
+           // System.IO.Stream responseStream = response.GetResponseStream();
 
-            Image img = Image.FromStream(responseStream);
+            //Image img = Image.FromStream(responseStream);
            
-            responseStream.Dispose();
+           // responseStream.Dispose();
 
             PictureBox picbox = new PictureBox();
             picbox.Name = "PictureBox" + rowCount.ToString();
-            picbox.Image = img;
+            //   picbox.Image = img;
+
+            picbox.ImageLocation = url;
 
             picbox.Width = 75;
             picbox.Height = 75;
+            picbox.SizeMode = PictureBoxSizeMode.Zoom;
             mypanel.Controls.Add(picbox);
 
            
