@@ -1,0 +1,14 @@
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\Windows Image Scraper.exe.config
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\Windows Image Scraper.exe
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\Windows Image Scraper.pdb
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csprojAssemblyReference.cache
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows_Image_Scraper.Form1.resources
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows_Image_Scraper.Properties.Resources.resources
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csproj.GenerateResource.cache
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csproj.CoreCompileInputs.cache
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.exe
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.pdb
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.dll
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.pdb
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\bin\Debug\HtmlAgilityPack.xml
+c:\users\david head\source\repos\Windows Image Scraper\Windows Image Scraper\obj\Debug\Windows Image Scraper.csproj.CopyComplete
